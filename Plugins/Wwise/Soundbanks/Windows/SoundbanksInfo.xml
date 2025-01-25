@@ -9,17 +9,26 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" GUID="{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}" Language="SFX" Hash="{8E1AE236-FD52-78DD-4AED-6AFF97258BBD}">
+		<SoundBank Id="133642231" Type="User" GUID="{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}" Language="SFX" Hash="{3B364767-6A24-FD7F-6427-65D3E06F0655}">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
+				<File Id="790385264" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BubblePopping.wav</ShortName>
+					<CachePath>SFX/BubblePopping_818F3B66.wem</CachePath>
+				</File>
 				<File Id="810696768" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Menu_ebass_110bpm4-4_L16m_P1M_1.wav</ShortName>
 					<CachePath>SFX/Menu_ebass_110bpm4-4_L16m_P1M_1_FBC78EF0.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
+				<Event Id="3000457456" Name="BubblePop" ObjectPath="\Events\Default Work Unit\BubblePop" GUID="{18E87BA7-7978-472D-BCB6-4065CE56A7CC}" DurationType="OneShot" DurationMin="0.875" DurationMax="0.875">
+					<MediaRefs>
+						<MediaRef Id="790385264"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="679636833" Name="MenuMusic" ObjectPath="\Events\Default Work Unit\MenuMusic" GUID="{A19689F2-C63A-4F63-A428-7CC7EEE1F4DC}" DurationType="OneShot" DurationMin="41.47108" DurationMax="41.47108">
 					<MediaRefs>
 						<MediaRef Id="810696768"/>
@@ -172,5 +181,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EAA416A0-9C3D-8C3C-FB73-54B653C55ECC}</FileHash>
+	<FileHash>{56F12684-24B6-CD15-3280-7CB6C26741A8}</FileHash>
 </SoundBanksInfo>
