@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="133642231" Type="User" GUID="{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}" Language="SFX" Hash="{8E1AE236-FD52-78DD-4AED-6AFF97258BBD}">
+			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
+			<ShortName>General</ShortName>
+			<Path>General.bnk</Path>
+			<Media>
+				<File Id="810696768" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Menu_ebass_110bpm4-4_L16m_P1M_1.wav</ShortName>
+					<CachePath>SFX/Menu_ebass_110bpm4-4_L16m_P1M_1_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="679636833" Name="MenuMusic" ObjectPath="\Events\Default Work Unit\MenuMusic" GUID="{A19689F2-C63A-4F63-A428-7CC7EEE1F4DC}" DurationType="OneShot" DurationMin="41.47108" DurationMax="41.47108">
+					<MediaRefs>
+						<MediaRef Id="810696768"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3086540886" Name="StopALL" ObjectPath="\Events\Default Work Unit\StopALL" GUID="{D7CEE57B-1414-41C3-B52A-8B23892A1EF4}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3853498466" Name="StopAll_Local" ObjectPath="\Events\Default Work Unit\StopAll_Local" GUID="{FE5DED18-7541-433A-932D-7BCF3E6F8A83}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{4BD9F276-6C74-8E00-8AEF-B1832DD20BBC}</FileHash>
+</SoundBanksInfo>
