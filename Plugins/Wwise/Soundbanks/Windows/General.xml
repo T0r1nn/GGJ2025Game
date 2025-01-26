@@ -1,11 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" GUID="{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}" Language="SFX" Hash="{3B364767-6A24-FD7F-6427-65D3E06F0655}">
+		<SoundBank Id="133642231" Type="User" GUID="{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}" Language="SFX" Hash="{CFD4F3C8-C1C0-7A82-7866-C86352C59360}">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
+				<File Id="89702051" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_TurretPlaced3_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_TurretPlaced3_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="135738728" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_ReRoll3_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_ReRoll3_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="306752430" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>menu_synth_120bpm_4-4_32m_P2m_2.wav</ShortName>
+					<CachePath>SFX/menu_synth_120bpm_4-4_32m_P2m_2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="400872950" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_TurretPlaced1_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_TurretPlaced1_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="491328388" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>menuintro_synth_120bpm_4-4_7m2b.wav</ShortName>
+					<CachePath>SFX/menuintro_synth_120bpm_4-4_7m2b_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="504484136" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Gold_Level_v1_T.wav</ShortName>
+					<CachePath>SFX/SFX_Gold_Level_v1_T_818F3B66.wem</CachePath>
+				</File>
+				<File Id="566076720" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_BubbleBlow_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_BubbleBlow_Level_v1_JL_FBC734FA.wem</CachePath>
+				</File>
+				<File Id="619436846" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_ReRoll1_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_ReRoll1_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="710929322" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Select_UI_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_Select_UI_v1_JL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="739646732" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_ReRoll4_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_ReRoll4_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
 				<File Id="790385264" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BubblePopping.wav</ShortName>
 					<CachePath>SFX/BubblePopping_818F3B66.wem</CachePath>
@@ -14,22 +54,81 @@
 					<ShortName>Menu_ebass_110bpm4-4_L16m_P1M_1.wav</ShortName>
 					<CachePath>SFX/Menu_ebass_110bpm4-4_L16m_P1M_1_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="950982958" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_TurretPlaced2_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_TurretPlaced2_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="997642943" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_ReRoll2_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_ReRoll2_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1012003016" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_TurretFall_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_TurretFall_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
 			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2891462749" Name="Room_Medium_High_Absorbtion" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium_High_Absorbtion" GUID="{E22DBBB6-7656-4B93-A28D-C003FD416889}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
 			<Events>
-				<Event Id="3000457456" Name="BubblePop" ObjectPath="\Events\Default Work Unit\BubblePop" GUID="{18E87BA7-7978-472D-BCB6-4065CE56A7CC}" DurationType="OneShot" DurationMin="0.875" DurationMax="0.875">
+				<Event Id="1233484645" Name="BubbleBlowing" ObjectPath="\Events\SFX\BubbleBlowing" GUID="{9A381CFD-26CE-41CF-B348-A92FFD49A494}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="566076720"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2891462749"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3000457456" Name="BubblePop" ObjectPath="\Events\SFX\BubblePop" GUID="{18E87BA7-7978-472D-BCB6-4065CE56A7CC}" DurationType="OneShot" DurationMin="0.61729056" DurationMax="1.1870288">
 					<MediaRefs>
 						<MediaRef Id="790385264"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="679636833" Name="MenuMusic" ObjectPath="\Events\Default Work Unit\MenuMusic" GUID="{A19689F2-C63A-4F63-A428-7CC7EEE1F4DC}" DurationType="OneShot" DurationMin="41.47108" DurationMax="41.47108">
+				<Event Id="651855279" Name="Gold" ObjectPath="\Events\UI\Gold" GUID="{5395AAFE-36E7-49A8-B8A7-54F837D21D65}" DurationType="OneShot" DurationMin="2.2062292" DurationMax="2.2062292">
 					<MediaRefs>
+						<MediaRef Id="504484136"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="679636833" Name="MenuMusic" ObjectPath="\Events\Default Work Unit\MenuMusic" GUID="{A19689F2-C63A-4F63-A428-7CC7EEE1F4DC}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="306752430"/>
+						<MediaRef Id="491328388"/>
 						<MediaRef Id="810696768"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3372805827" Name="Reroll" ObjectPath="\Events\UI\Reroll" GUID="{11526BB9-5A24-4F95-8195-F72DEDB16517}" DurationType="OneShot" DurationMin="1.1786195" DurationMax="1.5329012">
+					<MediaRefs>
+						<MediaRef Id="135738728"/>
+						<MediaRef Id="619436846"/>
+						<MediaRef Id="739646732"/>
+						<MediaRef Id="997642943"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1432588725" Name="Select" ObjectPath="\Events\UI\Select" GUID="{8393CDCD-FF2E-408B-BC58-7D6E86782D58}" DurationType="OneShot" DurationMin="0.59375" DurationMax="0.59375">
+					<MediaRefs>
+						<MediaRef Id="710929322"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3086540886" Name="StopALL" ObjectPath="\Events\Default Work Unit\StopALL" GUID="{D7CEE57B-1414-41C3-B52A-8B23892A1EF4}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3853498466" Name="StopAll_Local" ObjectPath="\Events\Default Work Unit\StopAll_Local" GUID="{FE5DED18-7541-433A-932D-7BCF3E6F8A83}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2521101144" Name="TurrentPlacement" ObjectPath="\Events\SFX\TurrentPlacement" GUID="{375CD155-DFC5-4A66-83A5-CACE4C85A8C7}" DurationType="OneShot" DurationMin="0.611417" DurationMax="0.611417">
+					<MediaRefs>
+						<MediaRef Id="89702051"/>
+						<MediaRef Id="400872950"/>
+						<MediaRef Id="950982958"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1852780260" Name="TurretFall" ObjectPath="\Events\SFX\TurretFall" GUID="{75184A3B-BAE2-43BE-AC38-A3C0D2E41D20}" DurationType="OneShot" DurationMin="2.46875" DurationMax="2.46875">
+					<MediaRefs>
+						<MediaRef Id="1012003016"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0715F106-AC77-1F9F-DFB8-425A30EB1099}</FileHash>
+	<FileHash>{2AE38EAE-C09C-8A59-0A19-1AE404065440}</FileHash>
 </SoundBanksInfo>
