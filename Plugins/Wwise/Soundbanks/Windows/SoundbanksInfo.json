@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}",
     "Language": "SFX",
-    "Hash": "{94E5B2BB-A3A7-C3E4-EE10-642A3C166067}",
+    "Hash": "{F14A28A3-3CCB-2527-32D9-C32E8770123D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\General",
     "ShortName": "General",
     "Path": "General.bnk",
@@ -315,6 +315,14 @@
        "LibId": "7733251"
       },
       {
+       "Id": "2653529179",
+       "Name": "Three_Voices",
+       "ObjectPath": "\\Effects\\Factory Effects\\Harmonizer\\Three_Voices",
+       "GUID": "{71CA20BE-8C1D-4A0C-92AF-BFCE183D5651}",
+       "LibName": "Wwise Harmonizer",
+       "LibId": "9043971"
+      },
+      {
        "Id": "2891462749",
        "Name": "Room_Medium_High_Absorbtion",
        "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium_High_Absorbtion",
@@ -463,9 +471,9 @@
       ]
      },
      {
-      "Id": "379098654",
-      "Name": "LineClear",
-      "ObjectPath": "\\Events\\Default Work Unit\\LineClear",
+      "Id": "1817940623",
+      "Name": "LineClear01",
+      "ObjectPath": "\\Events\\Default Work Unit\\LineClear01",
       "GUID": "{635DBEA6-5521-41AD-BBF6-305DA17425FE}",
       "DurationType": "OneShot",
       "DurationMin": "8.980625",
@@ -475,6 +483,55 @@
         "Id": "480545625"
        }
       ]
+     },
+     {
+      "Id": "1817940620",
+      "Name": "LineClear02",
+      "ObjectPath": "\\Events\\Default Work Unit\\LineClear02",
+      "GUID": "{D39A4D62-673B-4C7B-816C-66586D13F32C}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.000828",
+      "DurationMax": "8.000828",
+      "MediaRefs": [
+       {
+        "Id": "480545625"
+       }
+      ]
+     },
+     {
+      "Id": "1817940621",
+      "Name": "LineClear03",
+      "ObjectPath": "\\Events\\Default Work Unit\\LineClear03",
+      "GUID": "{723D1E0E-CDB2-47C1-9300-01019EB5C922}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.127927",
+      "DurationMax": "7.127927",
+      "MediaRefs": [
+       {
+        "Id": "480545625"
+       }
+      ]
+     },
+     {
+      "Id": "1817940618",
+      "Name": "LineClear04",
+      "ObjectPath": "\\Events\\Default Work Unit\\LineClear04",
+      "GUID": "{222A6EFC-9338-4FA9-A246-5B37C294A3D9}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.3502607",
+      "DurationMax": "6.3502607",
+      "MediaRefs": [
+       {
+        "Id": "480545625"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2653529179"
+        }
+       ]
+      }
      },
      {
       "Id": "679636833",
@@ -731,7 +788,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{624C59BE-2681-6AE0-E53B-7F50782EC782}",
+    "Hash": "{0E9DFCED-DE38-FD06-0426-09CD7B0D2760}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -1275,6 +1332,6 @@
     ]
    }
   ],
-  "FileHash": "{1B108425-F9E5-FF4B-E5DA-5696D1B514B2}"
+  "FileHash": "{3CD06A3F-DA89-0E82-3DAA-9C1DBD70456A}"
  }
 }
