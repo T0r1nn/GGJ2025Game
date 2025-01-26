@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" GUID="{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}" Language="SFX" Hash="{CFD4F3C8-C1C0-7A82-7866-C86352C59360}">
+		<SoundBank Id="133642231" Type="User" GUID="{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}" Language="SFX" Hash="{47C8759F-FEA9-2ADE-3DFF-19AA5DFCC74F}">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
+				<File Id="11446186" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_HealthLoss1_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_HealthLoss1_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="33292302" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_TurretHarpoon3_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_TurretHarpoon3_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
 				<File Id="89702051" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_TurretPlaced3_Level_v1_JL.wav</ShortName>
 					<CachePath>SFX/SFX_TurretPlaced3_Level_v1_JL_818F3B66.wem</CachePath>
@@ -14,13 +22,41 @@
 					<ShortName>SFX_ReRoll3_Level_v1_JL.wav</ShortName>
 					<CachePath>SFX/SFX_ReRoll3_Level_v1_JL_818F3B66.wem</CachePath>
 				</File>
+				<File Id="237403365" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_TurretHarpoon2_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_TurretHarpoon2_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="270987448" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Countdown_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_Countdown_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
 				<File Id="306752430" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>menu_synth_120bpm_4-4_32m_P2m_2.wav</ShortName>
 					<CachePath>SFX/menu_synth_120bpm_4-4_32m_P2m_2_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="316775287" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_BubbleBlow_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_BubbleBlow_Level_v1_JL_61FBF6EC.wem</CachePath>
+				</File>
+				<File Id="328422919" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_RoundStart_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_RoundStart_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
 				<File Id="400872950" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_TurretPlaced1_Level_v1_JL.wav</ShortName>
 					<CachePath>SFX/SFX_TurretPlaced1_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="409189835" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_TurretRocket_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_TurretRocket_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="420940370" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_TurretHarpoon5_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_TurretHarpoon5_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="480545625" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_LineClear_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_LineClear_Level_v1_JL_818F3B66.wem</CachePath>
 				</File>
 				<File Id="491328388" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>menuintro_synth_120bpm_4-4_7m2b.wav</ShortName>
@@ -30,21 +66,45 @@
 					<ShortName>SFX_Gold_Level_v1_T.wav</ShortName>
 					<CachePath>SFX/SFX_Gold_Level_v1_T_818F3B66.wem</CachePath>
 				</File>
+				<File Id="526636560" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_TurretHarpoon1_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_TurretHarpoon1_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="556931955" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_TurretHarpoon6_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_TurretHarpoon6_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
 				<File Id="566076720" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_BubbleBlow_Level_v1_JL.wav</ShortName>
-					<CachePath>SFX/SFX_BubbleBlow_Level_v1_JL_FBC734FA.wem</CachePath>
+					<CachePath>SFX/SFX_BubbleBlow_Level_v1_JL_5BE682A4.wem</CachePath>
+				</File>
+				<File Id="608421491" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_HealthLoss3_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_HealthLoss3_Level_v1_JL_818F3B66.wem</CachePath>
 				</File>
 				<File Id="619436846" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_ReRoll1_Level_v1_JL.wav</ShortName>
 					<CachePath>SFX/SFX_ReRoll1_Level_v1_JL_818F3B66.wem</CachePath>
 				</File>
+				<File Id="689271877" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_TurretHarpoon4_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_TurretHarpoon4_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
 				<File Id="710929322" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Select_UI_v1_JL.wav</ShortName>
 					<CachePath>SFX/SFX_Select_UI_v1_JL_818F3B66.wem</CachePath>
 				</File>
+				<File Id="714634105" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_TurretLaserBeam_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_TurretLaserBeam_Level_v1_JL_03618FA4.wem</CachePath>
+				</File>
 				<File Id="739646732" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_ReRoll4_Level_v1_JL.wav</ShortName>
 					<CachePath>SFX/SFX_ReRoll4_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="785190944" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_TurretLaserShoot_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_TurretLaserShoot_Level_v1_JL_A3BA0E1E.wem</CachePath>
 				</File>
 				<File Id="790385264" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BubblePopping.wav</ShortName>
@@ -53,6 +113,18 @@
 				<File Id="810696768" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Menu_ebass_110bpm4-4_L16m_P1M_1.wav</ShortName>
 					<CachePath>SFX/Menu_ebass_110bpm4-4_L16m_P1M_1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="870482298" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_TurretFlameThrower_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_TurretFlameThrower_Level_v1_JL_402F1D08.wem</CachePath>
+				</File>
+				<File Id="905636529" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_BubbleBlow_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_BubbleBlow_Level_v1_JL_6C840A67.wem</CachePath>
+				</File>
+				<File Id="932016389" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_HealthLoss2_Level_v1_JL.wav</ShortName>
+					<CachePath>SFX/SFX_HealthLoss2_Level_v1_JL_818F3B66.wem</CachePath>
 				</File>
 				<File Id="950982958" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_TurretPlaced2_Level_v1_JL.wav</ShortName>
@@ -69,13 +141,16 @@
 			</Media>
 			<Plugins>
 				<ShareSets>
+					<Plugin Id="602546716" Name="Room_Large" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Large" GUID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="2891462749" Name="Room_Medium_High_Absorbtion" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium_High_Absorbtion" GUID="{E22DBBB6-7656-4B93-A28D-C003FD416889}" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
 			</Plugins>
 			<Events>
-				<Event Id="1233484645" Name="BubbleBlowing" ObjectPath="\Events\SFX\BubbleBlowing" GUID="{9A381CFD-26CE-41CF-B348-A92FFD49A494}" DurationType="Infinite">
+				<Event Id="598895382" Name="BubbleBlowing_Play" ObjectPath="\Events\SFX\BubbleBlowing_Play" GUID="{9A381CFD-26CE-41CF-B348-A92FFD49A494}" DurationType="Infinite">
 					<MediaRefs>
+						<MediaRef Id="316775287"/>
 						<MediaRef Id="566076720"/>
+						<MediaRef Id="905636529"/>
 					</MediaRefs>
 					<PluginRefs>
 						<ShareSets>
@@ -83,14 +158,33 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
+				<Event Id="1329432744" Name="BubbleBlowing_Stop" ObjectPath="\Events\SFX\BubbleBlowing_Stop" GUID="{26CCB73D-1F40-46CF-B520-D5CA1094DA87}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3000457456" Name="BubblePop" ObjectPath="\Events\SFX\BubblePop" GUID="{18E87BA7-7978-472D-BCB6-4065CE56A7CC}" DurationType="OneShot" DurationMin="0.61729056" DurationMax="1.1870288">
 					<MediaRefs>
 						<MediaRef Id="790385264"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2188010819" Name="Countdown_Play" ObjectPath="\Events\UI\Countdown_Play" GUID="{10D07A2D-2EE9-46FD-941D-F6112E653F2D}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="270987448"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="208011273" Name="Countdown_Stop" ObjectPath="\Events\UI\Countdown_Stop" GUID="{F4331B59-4A92-4DF9-AB4C-138B45BB3B20}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="651855279" Name="Gold" ObjectPath="\Events\UI\Gold" GUID="{5395AAFE-36E7-49A8-B8A7-54F837D21D65}" DurationType="OneShot" DurationMin="2.2062292" DurationMax="2.2062292">
 					<MediaRefs>
 						<MediaRef Id="504484136"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3241149498" Name="HealthLoss" ObjectPath="\Events\SFX\HealthLoss" GUID="{9433FFAC-BD63-4886-83B7-7B9F74DD0D4F}" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
+					<MediaRefs>
+						<MediaRef Id="11446186"/>
+						<MediaRef Id="608421491"/>
+						<MediaRef Id="932016389"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="379098654" Name="LineClear" ObjectPath="\Events\Default Work Unit\LineClear" GUID="{635DBEA6-5521-41AD-BBF6-305DA17425FE}" DurationType="OneShot" DurationMin="8.980625" DurationMax="8.980625">
+					<MediaRefs>
+						<MediaRef Id="480545625"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="679636833" Name="MenuMusic" ObjectPath="\Events\Default Work Unit\MenuMusic" GUID="{A19689F2-C63A-4F63-A428-7CC7EEE1F4DC}" DurationType="Infinite">
@@ -106,6 +200,11 @@
 						<MediaRef Id="619436846"/>
 						<MediaRef Id="739646732"/>
 						<MediaRef Id="997642943"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="211290109" Name="RoundStart" ObjectPath="\Events\UI\RoundStart" GUID="{8FA0D61D-A969-4A82-9DF0-563401BB26A4}" DurationType="OneShot" DurationMin="4" DurationMax="4">
+					<MediaRefs>
+						<MediaRef Id="328422919"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1432588725" Name="Select" ObjectPath="\Events\UI\Select" GUID="{8393CDCD-FF2E-408B-BC58-7D6E86782D58}" DurationType="OneShot" DurationMin="0.59375" DurationMax="0.59375">
@@ -127,8 +226,41 @@
 						<MediaRef Id="1012003016"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="685967434" Name="TurretFlameThrower_Play" ObjectPath="\Events\SFX\TurretFlameThrower_Play" GUID="{0A75C4C0-B52B-4E31-A73F-8BFC6C55A17C}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="870482298"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2131746164" Name="TurretFlameThrower_Stop" ObjectPath="\Events\SFX\TurretFlameThrower_Stop" GUID="{C053027D-4F43-4A62-A979-558C53C218FB}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1466179268" Name="TurretHarpoon" ObjectPath="\Events\SFX\TurretHarpoon" GUID="{4D44958F-AF68-4747-9FB6-F1C2B977F7E8}" DurationType="OneShot" DurationMin="0.28125" DurationMax="0.28125">
+					<MediaRefs>
+						<MediaRef Id="33292302"/>
+						<MediaRef Id="237403365"/>
+						<MediaRef Id="420940370"/>
+						<MediaRef Id="526636560"/>
+						<MediaRef Id="556931955"/>
+						<MediaRef Id="689271877"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="108186945" Name="TurretLaser_Play" ObjectPath="\Events\SFX\TurretLaser_Play" GUID="{5EB0F437-159A-49D7-9094-E1D634FB5092}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="714634105"/>
+						<MediaRef Id="785190944"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2428146711" Name="TurretLaser_Stop" ObjectPath="\Events\SFX\TurretLaser_Stop" GUID="{E1F2D404-EE4C-4469-8066-709BC3EB6BAF}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3465521675" Name="TurretRocket" ObjectPath="\Events\SFX\TurretRocket" GUID="{012EF116-BB4E-4B66-B88E-30C76C5B52A2}" DurationType="OneShot" DurationMin="3.90625" DurationMax="3.90625">
+					<MediaRefs>
+						<MediaRef Id="409189835"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2AE38EAE-C09C-8A59-0A19-1AE404065440}</FileHash>
+	<FileHash>{010A25CB-81EF-EE2F-99EC-5C35A39285EB}</FileHash>
 </SoundBanksInfo>
