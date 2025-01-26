@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" GUID="{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}" Language="SFX" Hash="{F14A28A3-3CCB-2527-32D9-C32E8770123D}">
+		<SoundBank Id="133642231" Type="User" GUID="{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}" Language="SFX" Hash="{85908AB7-9476-AF83-D6A2-22DEAA62C8FF}">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -480,5 +480,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{57B0AE95-4CEB-D140-6BEC-BFF250B4FDE0}</FileHash>
+	<FileHash>{59211C24-218B-3372-C538-A7DCF3128B01}</FileHash>
 </SoundBanksInfo>
