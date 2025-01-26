@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}",
     "Language": "SFX",
-    "Hash": "{AF564872-CC47-AF9A-D46C-7D6A7276E8EC}",
+    "Hash": "{CFD4F3C8-C1C0-7A82-7866-C86352C59360}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\General",
     "ShortName": "General",
     "Path": "General.bnk",
@@ -40,12 +40,28 @@
       "CachePath": "SFX/SFX_ReRoll3_Level_v1_JL_818F3B66.wem"
      },
      {
+      "Id": "306752430",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "menu_synth_120bpm_4-4_32m_P2m_2.wav",
+      "CachePath": "SFX/menu_synth_120bpm_4-4_32m_P2m_2_FBC78EF0.wem"
+     },
+     {
       "Id": "400872950",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_TurretPlaced1_Level_v1_JL.wav",
       "CachePath": "SFX/SFX_TurretPlaced1_Level_v1_JL_818F3B66.wem"
+     },
+     {
+      "Id": "491328388",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "menuintro_synth_120bpm_4-4_7m2b.wav",
+      "CachePath": "SFX/menuintro_synth_120bpm_4-4_7m2b_FBC78EF0.wem"
      },
      {
       "Id": "504484136",
@@ -193,10 +209,14 @@
       "Name": "MenuMusic",
       "ObjectPath": "\\Events\\Default Work Unit\\MenuMusic",
       "GUID": "{A19689F2-C63A-4F63-A428-7CC7EEE1F4DC}",
-      "DurationType": "OneShot",
-      "DurationMin": "41.47108",
-      "DurationMax": "41.47108",
+      "DurationType": "Infinite",
       "MediaRefs": [
+       {
+        "Id": "306752430"
+       },
+       {
+        "Id": "491328388"
+       },
        {
         "Id": "810696768"
        }
@@ -798,6 +818,6 @@
     ]
    }
   ],
-  "FileHash": "{1238D16F-6578-42E5-1CAE-362445661BF8}"
+  "FileHash": "{E5C05495-5EED-DAA4-F273-2CCE58A3D727}"
  }
 }

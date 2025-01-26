@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" GUID="{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}" Language="SFX" Hash="{AF564872-CC47-AF9A-D46C-7D6A7276E8EC}">
+		<SoundBank Id="133642231" Type="User" GUID="{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}" Language="SFX" Hash="{CFD4F3C8-C1C0-7A82-7866-C86352C59360}">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -14,9 +14,17 @@
 					<ShortName>SFX_ReRoll3_Level_v1_JL.wav</ShortName>
 					<CachePath>SFX/SFX_ReRoll3_Level_v1_JL_818F3B66.wem</CachePath>
 				</File>
+				<File Id="306752430" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>menu_synth_120bpm_4-4_32m_P2m_2.wav</ShortName>
+					<CachePath>SFX/menu_synth_120bpm_4-4_32m_P2m_2_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="400872950" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_TurretPlaced1_Level_v1_JL.wav</ShortName>
 					<CachePath>SFX/SFX_TurretPlaced1_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="491328388" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>menuintro_synth_120bpm_4-4_7m2b.wav</ShortName>
+					<CachePath>SFX/menuintro_synth_120bpm_4-4_7m2b_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="504484136" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Gold_Level_v1_T.wav</ShortName>
@@ -85,8 +93,10 @@
 						<MediaRef Id="504484136"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="679636833" Name="MenuMusic" ObjectPath="\Events\Default Work Unit\MenuMusic" GUID="{A19689F2-C63A-4F63-A428-7CC7EEE1F4DC}" DurationType="OneShot" DurationMin="41.47108" DurationMax="41.47108">
+				<Event Id="679636833" Name="MenuMusic" ObjectPath="\Events\Default Work Unit\MenuMusic" GUID="{A19689F2-C63A-4F63-A428-7CC7EEE1F4DC}" DurationType="Infinite">
 					<MediaRefs>
+						<MediaRef Id="306752430"/>
+						<MediaRef Id="491328388"/>
 						<MediaRef Id="810696768"/>
 					</MediaRefs>
 				</Event>
@@ -120,5 +130,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F22D7AB8-389B-CBB1-EEF9-305AAE548D9D}</FileHash>
+	<FileHash>{2AE38EAE-C09C-8A59-0A19-1AE404065440}</FileHash>
 </SoundBanksInfo>
