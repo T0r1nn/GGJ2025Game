@@ -24,6 +24,5 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	FIntPoint* GetPath(FIntPoint start, FIntPoint end);
 		
 };

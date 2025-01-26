@@ -32,8 +32,3 @@ void UAStarPathfinding::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 	// ...
 }
 
-FIntPoint* GetPath(FIntPoint start, FIntPoint end) 
-{
-	
-}
-
