@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" GUID="{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}" Language="SFX" Hash="{893AE5F3-10B9-596F-43F8-26647B11AFE3}">
+		<SoundBank Id="133642231" Type="User" GUID="{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}" Language="SFX" Hash="{94E5B2BB-A3A7-C3E4-EE10-642A3C166067}">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -30,9 +30,9 @@
 					<ShortName>SFX_TurretHarpoon2_Level_v1_JL.wav</ShortName>
 					<CachePath>SFX/SFX_TurretHarpoon2_Level_v1_JL_818F3B66.wem</CachePath>
 				</File>
-				<File Id="270987448" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Countdown_Level_v1_JL.wav</ShortName>
-					<CachePath>SFX/SFX_Countdown_Level_v1_JL_818F3B66.wem</CachePath>
+				<File Id="286633985" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Countdown_Level_v2_JL.wav</ShortName>
+					<CachePath>SFX/SFX_Countdown_Level_v2_JL_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="306752430" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>menu_synth_120bpm_4-4_32m_P2m_2.wav</ShortName>
@@ -172,12 +172,6 @@
 						<MediaRef Id="790385264"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2188010819" Name="Countdown_Play" ObjectPath="\Events\UI\Countdown_Play" GUID="{10D07A2D-2EE9-46FD-941D-F6112E653F2D}" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="270987448"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="208011273" Name="Countdown_Stop" ObjectPath="\Events\UI\Countdown_Stop" GUID="{F4331B59-4A92-4DF9-AB4C-138B45BB3B20}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="651855279" Name="Gold" ObjectPath="\Events\UI\Gold" GUID="{5395AAFE-36E7-49A8-B8A7-54F837D21D65}" DurationType="OneShot" DurationMin="2.2062292" DurationMax="2.2062292">
 					<MediaRefs>
 						<MediaRef Id="504484136"/>
@@ -202,12 +196,14 @@
 							<SwitchValue GroupType="State" GroupId="3459452222" Id="1945198040" GUID="{80BA2047-0B12-413C-ACFC-CFB7247E0E5D}"/>
 							<MediaRefs>
 								<MediaRef Id="162970325"/>
+								<MediaRef Id="286633985"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="3459452222" Id="748895195" GUID="{666DA650-FE8B-498B-B5ED-0D1D18F17A7F}"/>
 							<MediaRefs>
 								<MediaRef Id="162970325"/>
+								<MediaRef Id="286633985"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -301,5 +297,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9D04F4A3-4218-01F5-4C2E-54E77E36369C}</FileHash>
+	<FileHash>{FD5C6758-46EE-7CA8-B555-3C4ED8A88758}</FileHash>
 </SoundBanksInfo>
