@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}",
     "Language": "SFX",
-    "Hash": "{47C8759F-FEA9-2ADE-3DFF-19AA5DFCC74F}",
+    "Hash": "{893AE5F3-10B9-596F-43F8-26647B11AFE3}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\General",
     "ShortName": "General",
     "Path": "General.bnk",
@@ -46,6 +46,14 @@
       "Location": "Memory",
       "ShortName": "SFX_ReRoll3_Level_v1_JL.wav",
       "CachePath": "SFX/SFX_ReRoll3_Level_v1_JL_818F3B66.wem"
+     },
+     {
+      "Id": "162970325",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BuildPhase_synth_130bpm_4-4_64m_P2m.wav",
+      "CachePath": "SFX/BuildPhase_synth_130bpm_4-4_64m_P2m_FBC78EF0.wem"
      },
      {
       "Id": "237403365",
@@ -206,6 +214,14 @@
       "Location": "Memory",
       "ShortName": "SFX_ReRoll4_Level_v1_JL.wav",
       "CachePath": "SFX/SFX_ReRoll4_Level_v1_JL_818F3B66.wem"
+     },
+     {
+      "Id": "775991627",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "TDphase_synth_130bpm_4-4_64m_P2m.wav",
+      "CachePath": "SFX/TDphase_synth_130bpm_4-4_64m_P2m_FBC78EF0.wem"
      },
      {
       "Id": "785190944",
@@ -403,6 +419,54 @@
        },
        {
         "Id": "932016389"
+       }
+      ]
+     },
+     {
+      "Id": "1321655446",
+      "Name": "LevelMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\LevelMusic",
+      "GUID": "{E0A42506-C7D5-4EA3-891A-FAA24F2E4CD4}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3459452222",
+         "Id": "834283304",
+         "GUID": "{6A7FC7AF-8FD2-4ECE-A352-C849E8681E39}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "775991627"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3459452222",
+         "Id": "1945198040",
+         "GUID": "{80BA2047-0B12-413C-ACFC-CFB7247E0E5D}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "162970325"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3459452222",
+         "Id": "748895195",
+         "GUID": "{666DA650-FE8B-498B-B5ED-0D1D18F17A7F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "162970325"
+         }
+        ]
        }
       ]
      },
@@ -640,9 +704,37 @@
        }
       ]
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3459452222",
+      "Name": "Phase",
+      "ObjectPath": "\\States\\Default Work Unit\\Phase",
+      "GUID": "{C2E1CE66-1F06-49AB-9173-2B56C7BC5CFF}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Phase\\None",
+        "GUID": "{666DA650-FE8B-498B-B5ED-0D1D18F17A7F}"
+       },
+       {
+        "Id": "834283304",
+        "Name": "BubblePhase",
+        "ObjectPath": "\\States\\Default Work Unit\\Phase\\BubblePhase",
+        "GUID": "{6A7FC7AF-8FD2-4ECE-A352-C849E8681E39}"
+       },
+       {
+        "Id": "1945198040",
+        "Name": "BuildPhase",
+        "ObjectPath": "\\States\\Default Work Unit\\Phase\\BuildPhase",
+        "GUID": "{80BA2047-0B12-413C-ACFC-CFB7247E0E5D}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{684E332A-FD61-37E0-95FB-506EE52CA01A}"
+  "FileHash": "{575B661B-6546-BE4C-3FBC-8EA8E66A8129}"
  }
 }

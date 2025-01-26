@@ -1,3 +1,11 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3459452222	Phase			\Default Work Unit\Phase	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Phase			
+	834283304	BubblePhase	Phase			
+	1945198040	BuildPhase	Phase			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
