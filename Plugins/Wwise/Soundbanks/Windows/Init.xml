@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{35F2E405-FA53-2130-3C4A-39E0675A8647}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{70C1C116-E3A6-9BFF-6BE8-A8E415C63E31}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -12,7 +12,10 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="393239870" Name="SFX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX" GUID="{F0FAAA98-077E-445D-9A4B-6DB58B54E18C}"/>
+				<Bus Id="1551306167" Name="UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\UI" GUID="{C2392180-8464-4574-8970-420529C4B273}"/>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3991942870" Name="Music" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music" GUID="{EBE8224D-1520-41B7-89DD-794BAE82B7B6}"/>
 			</Busses>
 			<AcousticTextures>
 				<AcousticTexture Id="504532776" Name="Brick" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Brick" GUID="{B086A5A9-F204-4C53-A838-BDB18B18F6D6}">
@@ -144,5 +147,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1B778D2E-5B4B-FED0-8D07-52C03A88902D}</FileHash>
+	<FileHash>{C4870DE4-14A6-65EB-4D7C-6ED07924630A}</FileHash>
 </SoundBanksInfo>
