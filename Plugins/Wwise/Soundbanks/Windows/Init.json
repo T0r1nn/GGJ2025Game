@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{70C1C116-E3A6-9BFF-6BE8-A8E415C63E31}",
+    "Hash": "{624C59BE-2681-6AE0-E53B-7F50782EC782}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -58,6 +58,34 @@
       "Name": "Music",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music",
       "GUID": "{EBE8224D-1520-41B7-89DD-794BAE82B7B6}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3459452222",
+      "Name": "Phase",
+      "ObjectPath": "\\States\\Default Work Unit\\Phase",
+      "GUID": "{C2E1CE66-1F06-49AB-9173-2B56C7BC5CFF}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Phase\\None",
+        "GUID": "{666DA650-FE8B-498B-B5ED-0D1D18F17A7F}"
+       },
+       {
+        "Id": "834283304",
+        "Name": "BubblePhase",
+        "ObjectPath": "\\States\\Default Work Unit\\Phase\\BubblePhase",
+        "GUID": "{6A7FC7AF-8FD2-4ECE-A352-C849E8681E39}"
+       },
+       {
+        "Id": "1945198040",
+        "Name": "BuildPhase",
+        "ObjectPath": "\\States\\Default Work Unit\\Phase\\BuildPhase",
+        "GUID": "{80BA2047-0B12-413C-ACFC-CFB7247E0E5D}"
+       }
+      ]
      }
     ],
     "AcousticTextures": [
@@ -526,6 +554,6 @@
     ]
    }
   ],
-  "FileHash": "{087630C4-6978-7083-20EC-B009A86CC7D5}"
+  "FileHash": "{42F5A862-CD48-DDFC-EA3C-0A2230DCF8C8}"
  }
 }

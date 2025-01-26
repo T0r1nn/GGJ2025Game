@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" GUID="{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}" Language="SFX" Hash="{47C8759F-FEA9-2ADE-3DFF-19AA5DFCC74F}">
+		<SoundBank Id="133642231" Type="User" GUID="{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}" Language="SFX" Hash="{893AE5F3-10B9-596F-43F8-26647B11AFE3}">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -29,6 +29,10 @@
 				<File Id="135738728" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_ReRoll3_Level_v1_JL.wav</ShortName>
 					<CachePath>SFX/SFX_ReRoll3_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="162970325" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BuildPhase_synth_130bpm_4-4_64m_P2m.wav</ShortName>
+					<CachePath>SFX/BuildPhase_synth_130bpm_4-4_64m_P2m_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="237403365" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_TurretHarpoon2_Level_v1_JL.wav</ShortName>
@@ -110,6 +114,10 @@
 					<ShortName>SFX_ReRoll4_Level_v1_JL.wav</ShortName>
 					<CachePath>SFX/SFX_ReRoll4_Level_v1_JL_818F3B66.wem</CachePath>
 				</File>
+				<File Id="775991627" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TDphase_synth_130bpm_4-4_64m_P2m.wav</ShortName>
+					<CachePath>SFX/TDphase_synth_130bpm_4-4_64m_P2m_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="785190944" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_TurretLaserShoot_Level_v1_JL.wav</ShortName>
 					<CachePath>SFX/SFX_TurretLaserShoot_Level_v1_JL_A3BA0E1E.wem</CachePath>
@@ -190,6 +198,28 @@
 						<MediaRef Id="932016389"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1321655446" Name="LevelMusic" ObjectPath="\Events\Default Work Unit\LevelMusic" GUID="{E0A42506-C7D5-4EA3-891A-FAA24F2E4CD4}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3459452222" Id="834283304" GUID="{6A7FC7AF-8FD2-4ECE-A352-C849E8681E39}"/>
+							<MediaRefs>
+								<MediaRef Id="775991627"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3459452222" Id="1945198040" GUID="{80BA2047-0B12-413C-ACFC-CFB7247E0E5D}"/>
+							<MediaRefs>
+								<MediaRef Id="162970325"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3459452222" Id="748895195" GUID="{666DA650-FE8B-498B-B5ED-0D1D18F17A7F}"/>
+							<MediaRefs>
+								<MediaRef Id="162970325"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="379098654" Name="LineClear" ObjectPath="\Events\Default Work Unit\LineClear" GUID="{635DBEA6-5521-41AD-BBF6-305DA17425FE}" DurationType="OneShot" DurationMin="8.980625" DurationMax="8.980625">
 					<MediaRefs>
 						<MediaRef Id="480545625"/>
@@ -268,8 +298,17 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="3459452222" Name="Phase" ObjectPath="\States\Default Work Unit\Phase" GUID="{C2E1CE66-1F06-49AB-9173-2B56C7BC5CFF}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Phase\None" GUID="{666DA650-FE8B-498B-B5ED-0D1D18F17A7F}"/>
+						<State Id="834283304" Name="BubblePhase" ObjectPath="\States\Default Work Unit\Phase\BubblePhase" GUID="{6A7FC7AF-8FD2-4ECE-A352-C849E8681E39}"/>
+						<State Id="1945198040" Name="BuildPhase" ObjectPath="\States\Default Work Unit\Phase\BuildPhase" GUID="{80BA2047-0B12-413C-ACFC-CFB7247E0E5D}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{70C1C116-E3A6-9BFF-6BE8-A8E415C63E31}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{624C59BE-2681-6AE0-E53B-7F50782EC782}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -285,6 +324,15 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Bus Id="3991942870" Name="Music" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music" GUID="{EBE8224D-1520-41B7-89DD-794BAE82B7B6}"/>
 			</Busses>
+			<StateGroups>
+				<StateGroup Id="3459452222" Name="Phase" ObjectPath="\States\Default Work Unit\Phase" GUID="{C2E1CE66-1F06-49AB-9173-2B56C7BC5CFF}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Phase\None" GUID="{666DA650-FE8B-498B-B5ED-0D1D18F17A7F}"/>
+						<State Id="834283304" Name="BubblePhase" ObjectPath="\States\Default Work Unit\Phase\BubblePhase" GUID="{6A7FC7AF-8FD2-4ECE-A352-C849E8681E39}"/>
+						<State Id="1945198040" Name="BuildPhase" ObjectPath="\States\Default Work Unit\Phase\BuildPhase" GUID="{80BA2047-0B12-413C-ACFC-CFB7247E0E5D}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<AcousticTextures>
 				<AcousticTexture Id="504532776" Name="Brick" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Brick" GUID="{B086A5A9-F204-4C53-A838-BDB18B18F6D6}">
 					<Properties>
@@ -415,5 +463,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{279FCEF9-0FD8-8D60-C15D-25F66012A77B}</FileHash>
+	<FileHash>{31F762C3-B042-E087-FA9F-3B9D610B1B40}</FileHash>
 </SoundBanksInfo>

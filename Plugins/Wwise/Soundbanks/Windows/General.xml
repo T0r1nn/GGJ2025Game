@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" GUID="{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}" Language="SFX" Hash="{47C8759F-FEA9-2ADE-3DFF-19AA5DFCC74F}">
+		<SoundBank Id="133642231" Type="User" GUID="{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}" Language="SFX" Hash="{893AE5F3-10B9-596F-43F8-26647B11AFE3}">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -21,6 +21,10 @@
 				<File Id="135738728" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_ReRoll3_Level_v1_JL.wav</ShortName>
 					<CachePath>SFX/SFX_ReRoll3_Level_v1_JL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="162970325" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BuildPhase_synth_130bpm_4-4_64m_P2m.wav</ShortName>
+					<CachePath>SFX/BuildPhase_synth_130bpm_4-4_64m_P2m_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="237403365" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_TurretHarpoon2_Level_v1_JL.wav</ShortName>
@@ -102,6 +106,10 @@
 					<ShortName>SFX_ReRoll4_Level_v1_JL.wav</ShortName>
 					<CachePath>SFX/SFX_ReRoll4_Level_v1_JL_818F3B66.wem</CachePath>
 				</File>
+				<File Id="775991627" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TDphase_synth_130bpm_4-4_64m_P2m.wav</ShortName>
+					<CachePath>SFX/TDphase_synth_130bpm_4-4_64m_P2m_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="785190944" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_TurretLaserShoot_Level_v1_JL.wav</ShortName>
 					<CachePath>SFX/SFX_TurretLaserShoot_Level_v1_JL_A3BA0E1E.wem</CachePath>
@@ -182,6 +190,28 @@
 						<MediaRef Id="932016389"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1321655446" Name="LevelMusic" ObjectPath="\Events\Default Work Unit\LevelMusic" GUID="{E0A42506-C7D5-4EA3-891A-FAA24F2E4CD4}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3459452222" Id="834283304" GUID="{6A7FC7AF-8FD2-4ECE-A352-C849E8681E39}"/>
+							<MediaRefs>
+								<MediaRef Id="775991627"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3459452222" Id="1945198040" GUID="{80BA2047-0B12-413C-ACFC-CFB7247E0E5D}"/>
+							<MediaRefs>
+								<MediaRef Id="162970325"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3459452222" Id="748895195" GUID="{666DA650-FE8B-498B-B5ED-0D1D18F17A7F}"/>
+							<MediaRefs>
+								<MediaRef Id="162970325"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="379098654" Name="LineClear" ObjectPath="\Events\Default Work Unit\LineClear" GUID="{635DBEA6-5521-41AD-BBF6-305DA17425FE}" DurationType="OneShot" DurationMin="8.980625" DurationMax="8.980625">
 					<MediaRefs>
 						<MediaRef Id="480545625"/>
@@ -260,7 +290,16 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="3459452222" Name="Phase" ObjectPath="\States\Default Work Unit\Phase" GUID="{C2E1CE66-1F06-49AB-9173-2B56C7BC5CFF}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Phase\None" GUID="{666DA650-FE8B-498B-B5ED-0D1D18F17A7F}"/>
+						<State Id="834283304" Name="BubblePhase" ObjectPath="\States\Default Work Unit\Phase\BubblePhase" GUID="{6A7FC7AF-8FD2-4ECE-A352-C849E8681E39}"/>
+						<State Id="1945198040" Name="BuildPhase" ObjectPath="\States\Default Work Unit\Phase\BuildPhase" GUID="{80BA2047-0B12-413C-ACFC-CFB7247E0E5D}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{010A25CB-81EF-EE2F-99EC-5C35A39285EB}</FileHash>
+	<FileHash>{9D04F4A3-4218-01F5-4C2E-54E77E36369C}</FileHash>
 </SoundBanksInfo>
