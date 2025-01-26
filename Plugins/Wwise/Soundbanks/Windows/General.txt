@@ -1,8 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	108186945	TurretLaser_Play			\SFX\TurretLaser_Play	
-	208011273	Countdown_Stop			\UI\Countdown_Stop	
 	211290109	RoundStart			\UI\RoundStart	
-	379098654	LineClear			\Default Work Unit\LineClear	
 	598895382	BubbleBlowing_Play			\SFX\BubbleBlowing_Play	
 	651855279	Gold			\UI\Gold	
 	679636833	MenuMusic			\Default Work Unit\MenuMusic	
@@ -11,9 +9,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	1329432744	BubbleBlowing_Stop			\SFX\BubbleBlowing_Stop	
 	1432588725	Select			\UI\Select	
 	1466179268	TurretHarpoon			\SFX\TurretHarpoon	
+	1817940618	LineClear04			\Default Work Unit\LineClear04	
+	1817940620	LineClear02			\Default Work Unit\LineClear02	
+	1817940621	LineClear03			\Default Work Unit\LineClear03	
+	1817940623	LineClear01			\Default Work Unit\LineClear01	
 	1852780260	TurretFall			\SFX\TurretFall	
 	2131746164	TurretFlameThrower_Stop			\SFX\TurretFlameThrower_Stop	
-	2188010819	Countdown_Play			\UI\Countdown_Play	
 	2428146711	TurretLaser_Stop			\SFX\TurretLaser_Stop	
 	2521101144	TurrentPlacement			\SFX\TurrentPlacement	
 	3000457456	BubblePop			\SFX\BubblePop	
@@ -33,6 +34,7 @@ State	ID	Name	State Group			Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	602546716	Room_Large	Wwise RoomVerb			
+	2653529179	Three_Voices	Wwise Harmonizer			
 	2891462749	Room_Medium_High_Absorbtion	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -42,7 +44,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	135738728	SFX_ReRoll3_Level_v1_JL	C:\Users\52stu\Documents\GitHub\GameJam2025Parent\GGJ25-WwiseProject\GGJ25-WwiseProject\.cache\Windows\SFX\SFX_ReRoll3_Level_v1_JL_818F3B66.wem		\Actor-Mixer Hierarchy\UI\UI\Reroll\SFX_ReRoll3_Level_v1_JL		258096
 	162970325	BuildPhase_synth_130bpm_4-4_64m_P2m	C:\Users\52stu\Documents\GitHub\GameJam2025Parent\GGJ25-WwiseProject\GGJ25-WwiseProject\.cache\Windows\SFX\BuildPhase_synth_130bpm_4-4_64m_P2m_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\LevelMusic\BuildPhase\BuildPhase_synth_130bpm_4-4_64m_P2m\BuildPhase_synth_130bpm_4-4_64m_P2m		30330976
 	237403365	SFX_TurretHarpoon2_Level_v1_JL	C:\Users\52stu\Documents\GitHub\GameJam2025Parent\GGJ25-WwiseProject\GGJ25-WwiseProject\.cache\Windows\SFX\SFX_TurretHarpoon2_Level_v1_JL_818F3B66.wem		\Actor-Mixer Hierarchy\SFX\SFX\Turrets\TurretFiring\TurretHarpoon\SFX_TurretHarpoon2_Level_v1_JL		54096
-	270987448	SFX_Countdown_Level_v1_JL	C:\Users\52stu\Documents\GitHub\GameJam2025Parent\GGJ25-WwiseProject\GGJ25-WwiseProject\.cache\Windows\SFX\SFX_Countdown_Level_v1_JL_818F3B66.wem		\Actor-Mixer Hierarchy\SFX\SFX\Countdown\SFX_Countdown_Level_v1_JL		942096
+	286633985	SFX_Countdown_Level_v2_JL	C:\Users\52stu\Documents\GitHub\GameJam2025Parent\GGJ25-WwiseProject\GGJ25-WwiseProject\.cache\Windows\SFX\SFX_Countdown_Level_v2_JL_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\LevelMusic\BuildPhase\BuildPhase_synth_130bpm_4-4_64m_P2m\SFX_Countdown_Level_v2_JL		886248
 	306752430	menu_synth_120bpm_4-4_32m_P2m_2	C:\Users\52stu\Documents\GitHub\GameJam2025Parent\GGJ25-WwiseProject\GGJ25-WwiseProject\.cache\Windows\SFX\menu_synth_120bpm_4-4_32m_P2m_2_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\MenuMusic\menu_synth_120bpm_4-4_32m_P2m_2\menu_synth_120bpm_4-4_32m_P2m_2		15741028
 	316775287	SFX_BubbleBlow_Level_v1_JL	C:\Users\52stu\Documents\GitHub\GameJam2025Parent\GGJ25-WwiseProject\GGJ25-WwiseProject\.cache\Windows\SFX\SFX_BubbleBlow_Level_v1_JL_61FBF6EC.wem		\Actor-Mixer Hierarchy\SFX\SFX\BubbleBlowing3\SFX_BubbleBlow_Level_v1_JL		2564784
 	328422919	SFX_RoundStart_Level_v1_JL	C:\Users\52stu\Documents\GitHub\GameJam2025Parent\GGJ25-WwiseProject\GGJ25-WwiseProject\.cache\Windows\SFX\SFX_RoundStart_Level_v1_JL_818F3B66.wem		\Actor-Mixer Hierarchy\SFX\SFX\SFX_RoundStart_Level_v1_JL		768096
