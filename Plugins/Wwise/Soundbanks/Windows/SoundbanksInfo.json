@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{8BE4DE83-8733-4296-9C48-DA9D9EAC89B2}",
     "Language": "SFX",
-    "Hash": "{893AE5F3-10B9-596F-43F8-26647B11AFE3}",
+    "Hash": "{94E5B2BB-A3A7-C3E4-EE10-642A3C166067}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\General",
     "ShortName": "General",
     "Path": "General.bnk",
@@ -72,12 +72,12 @@
       "CachePath": "SFX/SFX_TurretHarpoon2_Level_v1_JL_818F3B66.wem"
      },
      {
-      "Id": "270987448",
+      "Id": "286633985",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SFX_Countdown_Level_v1_JL.wav",
-      "CachePath": "SFX/SFX_Countdown_Level_v1_JL_818F3B66.wem"
+      "ShortName": "SFX_Countdown_Level_v2_JL.wav",
+      "CachePath": "SFX/SFX_Countdown_Level_v2_JL_FBC78EF0.wem"
      },
      {
       "Id": "306752430",
@@ -375,28 +375,6 @@
       ]
      },
      {
-      "Id": "2188010819",
-      "Name": "Countdown_Play",
-      "ObjectPath": "\\Events\\UI\\Countdown_Play",
-      "GUID": "{10D07A2D-2EE9-46FD-941D-F6112E653F2D}",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "270987448"
-       }
-      ]
-     },
-     {
-      "Id": "208011273",
-      "Name": "Countdown_Stop",
-      "ObjectPath": "\\Events\\UI\\Countdown_Stop",
-      "GUID": "{F4331B59-4A92-4DF9-AB4C-138B45BB3B20}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
       "Id": "651855279",
       "Name": "Gold",
       "ObjectPath": "\\Events\\UI\\Gold",
@@ -460,6 +438,9 @@
         "MediaRefs": [
          {
           "Id": "162970325"
+         },
+         {
+          "Id": "286633985"
          }
         ]
        },
@@ -473,6 +454,9 @@
         "MediaRefs": [
          {
           "Id": "162970325"
+         },
+         {
+          "Id": "286633985"
          }
         ]
        }
@@ -1291,6 +1275,6 @@
     ]
    }
   ],
-  "FileHash": "{E40CE425-49D1-707A-399F-B64541EE49F1}"
+  "FileHash": "{1B108425-F9E5-FF4B-E5DA-5696D1B514B2}"
  }
 }
